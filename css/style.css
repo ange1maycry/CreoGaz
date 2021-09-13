@@ -1,0 +1,213 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 1025px;
+    width: 100%;
+    margin: auto;
+}
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.info__block {
+    max-width: 825px;
+    width: 100%;
+    margin: auto;
+}
+.header {
+    margin-top: 33px;
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+}
+.navigation {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 615px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation__tel {
+    display: flex;
+    flex-direction: column;
+}
+.header__line {
+    margin-top: 39px;
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    position: absolute;
+}
+.hero__background {
+    margin-top: -80px;
+    background: url(../img/Rectangle.png) no-repeat center / cover;
+    width: auto;
+    height: 750px;
+}
+.section__project {
+    background: linear-gradient(to right, #f4f4f4 60%, #ffffff 40%, #FFFFFF 100%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.project__title {
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 35px;
+}
+.project__subtitle {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 19px; 
+}
+.project__desc {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    background: #ffffff;
+    box-shadow: 0px 0px 20px rgba(224, 224, 224, 0.25);
+    padding-top: 30px;
+    padding-bottom: 46px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-right: -40px;
+    position: relative;
+    font-size: 13px;
+    line-height: 22px;
+    color: #000000;
+}
+.project__arrow {
+    margin-top: 37px;
+}
+.arrow {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    cursor: pointer;
+    outline: none;
+}
+.arrow__left {
+    background: url(../img/Group3.svg) no-repeat center;
+    border: 1px solid #0F4898;
+}
+.arrow__right {
+    background: url(../img/Group3.1.svg) no-repeat center;
+    opacity: 0.4;
+    border: 1px solid #585858;
+}
+.section__new {
+    padding-top: 100px;
+    padding-bottom: 127px;
+    background: linear-gradient(to right, #ffffff 60%, #f4f4f4 40%, #FFFFFF 100%);
+}
+.news__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__title {
+    font-size: 30px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+.news__desc {
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.project__card__button--primary {
+    width: 139px;
+    height: 40px;
+    background: #0F4898;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.project__cards__block {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project__card {
+    margin-right: 30px;
+    background: #ffffff;
+}
+.project__date {
+    padding-left: 18px;
+    padding-top: 30px;
+    font-size: 15px;
+    line-height: 13px;
+    letter-spacing: 0.05em;
+}
+.project__card__title {
+    padding-left: 18px;
+    padding-top: 15px;
+    font-size: 22px;
+    line-height: 25px;
+    letter-spacing: 0.03em;
+}
+.project__card__desc {
+    padding-left: 18px;
+    padding-right: 22px;
+    padding-top: 15px;
+    font-size: 15px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+}
+.project__card__button {
+    margin-left: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 125px;
+    height: 40px;
+    background: #0F4898;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.footer {
+    padding-top: 40px;
+    background: #323232;
+    padding-bottom: 40px;
+}
+.footer__block {
+    max-width: 537px;
+    width: 100%;
+    margin: auto;
+}
+.footer__nav {
+    margin-left: 45px;
+    font-size: 19px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.footer__desc {
+    padding-top: 22px;
+    font-size: 15px;
+    line-height: 13px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #DCDCDC
+}
